@@ -157,9 +157,14 @@ a{
 
 .three{
     background-color: #c4c1c1;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.special{
+    width: 30%;
 }
 
 .three div{
@@ -210,12 +215,14 @@ article{
     justify-content: space-around;
 }
 
-.inner h5{
+.inner h3{
     font-weight: 900;
+    color: black;
 }
 
 .inner p{
     margin-top: 1em;
+    font-style: italic;
 }
 
 .five{
@@ -353,8 +360,8 @@ footer > p{
     .five{
         display: flex;
         flex-direction: column;
-        padding-left: 2em;
-        padding-right: 2em;
+        justify-content: center;
+        align-items: center;
     }
 
     .gallery{
@@ -368,6 +375,10 @@ footer > p{
 
     .icons{
         display: none;
+    }
+
+    .links{
+        width: 30%;
     }
     
 }
@@ -406,8 +417,6 @@ footer > p{
     .five{
         display: flex;
         flex-direction: column;
-        padding-left: 2em;
-        padding-right: 2em;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -426,8 +435,7 @@ footer > p{
     }
 
     article{
-        width: 100%;
-        padding-left: 1em;
+        width: 90%;
         flex-direction: column;
     }
 
@@ -447,6 +455,10 @@ footer > p{
 
     .icons{
         display: none;
+    }
+
+    .links{
+        width: 30%;
     }
     
 }
